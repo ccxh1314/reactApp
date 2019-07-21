@@ -1,0 +1,45 @@
+.aui-label-box {
+    display: block;
+    position: relative;
+    height: 1.7rem;
+    background: #fff;
+    overflow: hidden;
+}
+
+.aui-label-content {
+    display: block;
+    /* padding-bottom: 30px; */
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-user-select: none;
+}
+
+.aui-label-content ul {
+    display: inline-block;
+    padding: 0.15rem 0.2rem;
+    list-style: none;
+    -webkit-text-align: center;
+    text-align: center;
+    white-space: normal;
+}
+
+.aui-label-content ul li {
+    display: inline-block;
+    vertical-align: top;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin: 0.09rem 0.1rem;
+}
+
+.aui-label-content ul li a {
+    display: block;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(250, 7, 7, .8);
+    border-radius: 0.05rem;
+    font-size: 0.28rem;
+    padding: 0 0.2rem;
+}
